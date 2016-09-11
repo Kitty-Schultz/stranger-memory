@@ -1,0 +1,53 @@
+.Button {
+    background-color: #d31208;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 60px; 
+    padding: 10px;
+    text-decoration: none;
+    width: 280px;
+    animation: color-me-out 1.5s;
+}
+
+.Button:hover {
+    background-color: pink;
+    animation: color-me-in 1.5s;
+    border: none;
+}
+
+@keyframes color-me-in {
+  0% {
+    background: #d31208;
+  }
+  100% {
+    background: pink;
+  }
+}
+
+@keyframes color-me-out {
+  0% {
+    background: pink;
+  }
+  100% {
+    background: #d31208;
+  }
+}
+
+.Button:visited {
+    border: none; 
+    background-color: pink;  
+}
+
+.Butoton:active {
+    border: none;
+}
+
+.Button h2 {
+    color: #09253c;
+    font-family: 'Bungee Inline';
+    font-size: 2.5em;
+    margin: 0 auto;  
+    text-decoration: none;
+    border: none; 
+}

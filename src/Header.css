@@ -1,0 +1,17 @@
+.Header {
+    background: url(../images/stranger-memory.png) no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding-top: 100px;
+    height: 400px;   
+}
+
+@media only screen 
+and (max-device-width: 480px)
+and (min-device-width : 320px) { 
+    .Header {
+        background-size: contain; 
+        padding-top: 0px;
+        height: 200px;
+    }
+}

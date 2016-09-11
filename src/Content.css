@@ -1,0 +1,54 @@
+.Content { 
+    display: flex;
+    width: auto; 
+}
+
+.cards-container {
+    display: flex;
+    margin: 0 auto 50px auto; 
+    height: auto;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 760px;
+    perspective: 1000;
+}
+
+.congratulations {
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.congratulations h1 {
+    color: pink; 
+    font-family: 'Bungee Inline';
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 40px; 
+    opacity: 0.8;
+}
+
+@media only screen 
+and (max-device-width: 480px)
+and (min-device-width : 320px) { 
+    .cards-container {
+        margin: 0 auto;
+    }
+    .congratulations {
+        height: 150px;
+        padding: 0px;
+        margin-bottom: 60px;
+    }
+    .congratulations h1  {
+        font-size: 2em;
+        padding-top: 0;
+    }
+    .cards-container {
+        margin: -100px auto 0 auto; 
+    }
+    .Content {
+        margin-top: 60px;
+    }
+}
